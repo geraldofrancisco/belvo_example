@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: example connect
+
+belvo:
+  username: ${BELVO_USERNAME}
+  password: ${BELVO_PASSWORD}
+  baseUrl: ${BELVO_BASE:https://sandbox.belvo.com/api}
+  institutions:
+    getAll: /institutions
+    getById: /institutions/{id}
+
